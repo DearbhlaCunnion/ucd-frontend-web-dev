@@ -1,0 +1,112 @@
+UNIT 2 Lab – Structuring the Web – HTML5
+Apply Your Knowledge 
+1. Predict the Result. 
+Sketch out and briefly describe the web page that will be created with the following HTML code: 
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+     <title>Predict the Result</title>
+     <meta charset="utf-8">
+   </head>
+   <body>
+     <header><h1><i>Favorite Sites</i></h1></header>
+     <main>
+       <ol>
+         <li><a href="http://facebook.com">Facebook</a></li>
+         <li><a href="http://google.com">Google</a></li>
+       </ol>
+      </main>
+      <footer>
+        <small>Copyright &copy; 2016 Your name here</small>
+      </footer>
+   </body>
+   </html>
+2. Fill in the Missing Code. 
+The web page defined by the given code should display a heading and a description list, but some HTML tags, indicated by <_>, are missing. Fill in the missing code. 
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+     <title>Door County Wildflowers</title>
+     <meta charset="utf-8">
+   </head>
+<body>
+<header><_>Door County Wild Flowers<_></header> <main>
+<dl> 
+<dt>Trillium<_>
+<_>This white flower blooms from April through June in wooded areas.<_> 
+<_>Lady Slipper<_>
+<_>This yellow orchid blooms in June in wooded areas.</dd> 
+<_> 
+      </main>
+   </body>
+</html> 
+3. Find the Error. 
+All the text on the web page defined by the given code displays in large 
+and bold font typeface. Explain why this is happening. 
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+     <title>Find the Error</title>
+     <meta charset="utf-8">
+   </head>
+   <body>
+     <h1>My Web Page<h1>
+     <p>This is a sentence on my web page.</p>
+   </body>
+   </html>
+
+
+Hands-On Exercises 
+    1. In the “front-end-web-development” folder create another folder called “unit-02”
+    2. Write the HTML to display your name with the largest heading element 
+    3. Write the HTML to create an absolute link to your school’s website
+    4. Write the HTML for an unordered list to display the days of the week
+    5. Write the HTML for an ordered list that uses uppercase letters to order the items. This ordered list should display the following terms: HTML, XML, and XHTML 
+    6. Think of a favorite quotation by someone you admire. Write the HTML code to display the person’s name in a heading and the quotation in a blockquote element 
+    7. Modify the following code snippet to indicate that the term “site map” should have strong importance: 
+   <p>A diagram of the organization of a website is called a site map.
+   A site map represents the structure, or organization, of pages in
+   a website in a visual manner. Creating the site map is one of the
+   initial steps in developing a website.</p>
+    8. Modify the blockquote.html web page you created above. Configure the URL http://www.w3.org/WAI/ as a hyperlink. Save the file as blockquote2.html 
+    9. Create a web page that uses a description list to display three network protocols (see Unit 1) and their descriptions. Include a hyperlink to a website that provides information about the protocols. Add an appropriate heading to the page. Save the page as network.html 
+    10. Create a web page about your favourite musical group. Include the name of the group, the individuals in the group, a hyperlink to the group’s website, your favourite three (or fewer if the group is new) CD releases, and a brief review of each CD. 
+        ? Use an unordered list to organize the names of the individuals. 
+        ? Use a description list for the names of the CDs and your reviews. 
+Save the page as band.html 
+    11. Create a web page about your favourite recipe. Use an unordered list for the ingredients and an ordered list to describe the steps needed to prepare the food. Include a hyper- link to a website that offers free recipes. Save the page as recipe.html. 
+
+Imagine by John Lennon
+    1. Create a html page called “imagine.html” and save it in the “unit-02” folder
+    2. In Visual Code type: ‘html:5’ and hit enter. Boilerplate text for a new html5 document should appear. If this doesn’t work then copy the following html code and paste into Visual Code
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+  
+    </body>
+</html>
+
+    3. Copy the lyrics for the Imagine song from https://www.azlyrics.com/lyrics/johnlennon/imagine.html and paste it after the <body> tag and before the closing </body> tag
+    4. Add a main heading using the <h1> tag and the name of the song as the text
+    5. Surround each verse of the song with a <p> tag
+    6. View the html file in Chrome
+
+    7. As you can see the line breaks are being ignored and each verse id displayed on a single line 
+    8. To fix this issue add a <br> tag to the end of each line as shown below
+
+    9. Add a <br> tag to the end of each line and reload the page in Chrome
+
+    10. Add an <img> tag before the <h1> tag and set the value of the src attribute to https://www.allriot.com/wp-content/uploads/2022/12/john-lennon-left-wing-political-views-activism.jpeg
+    11. Although no longer recommended add a width attribute to the <img> tag and give it a value of 300px. This will reduce the size of the image to 300px width
+
+
+    12.  Add a link to the online version of the song lyrics at the end of the page
+
+    13. Using an unordered list, add a few more links to different web pages about John Lennon
+
