@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise One - Stars</title>
+</head>
+<body>
+    <h1>Stars</h1>
+    <div id="star-container"></div>
+
+    <script>
+
+        let userInput = prompt("Enter a number:");
+
+        let numStars = parseInt(userInput);
+
+        if (isNaN(numStars) || numStars < 0) {
+            alert("Number must be non negative");
+        } else {
+            let stars = "*".repeat(numStars);
+
+            console.log(stars);
+            document.getElementById("star-container").innerHTML = stars;
+        }
+    </script>
+</body>
+</html>
